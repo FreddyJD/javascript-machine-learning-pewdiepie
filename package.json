@@ -1,0 +1,22 @@
+{
+  "name": "pewdiepie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.19.2",
+    "cheerio": "1.0.0-rc.3",
+    "csv-parser": "2.3.2",
+    "dotenv": "8.2.0",
+    "lodash": "4.17.15",
+    "twitter": "1.7.1",
+    "mongodb": "2.2.33",
+    "wayback-downloader": "1.0.0"
+  }
+}

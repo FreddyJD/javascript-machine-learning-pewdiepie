@@ -1,1 +1,2 @@
-# pewdiepie_ai
+Its open source
+License: MIT

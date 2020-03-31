@@ -1,0 +1,10 @@
+service: pewdiepie
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  twitter_cron:
+    handler: scripts/twitter_cron.handler
+    events:
+      - schedule: rate(2 hours)
